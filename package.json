@@ -2,20 +2,32 @@
   "name": "confusion",
   "version": "1.0.0",
   "description": "This is a website for Ristorante Con Fusion",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
-    "start": "npm run lite",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "author": "HArsh Karwa",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "cssmin": "^0.4.3",
+    "grunt": "^1.0.2",
+    "htmlmin": "0.0.7",
+    "lite-server": "^2.3.0",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "copyfiles": "^2.0.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.13",
+    "parallelshell": "^3.0.2",
     "popper.js": "^1.12.9"
   }
 }

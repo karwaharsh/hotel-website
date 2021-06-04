@@ -1,0 +1,83 @@
+<style>
+.row-header /*Headings of the page */
+{
+    margin: 100px auto;
+    padding:0px auto;
+}
+.row-content
+{
+    margin: 10px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.footer
+{
+    background-color: #D1C4E9;
+    margin:20px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron /*Header And fotter for background color */
+{
+    padding:30px 30px 30px 30px;
+    margin: 0px auto;
+    background:#9575CD;
+    color:floralwhite;
+}
+.message /*adress tag in page*/
+{
+    font-size:100%;
+    margin:0px;
+    color:#0f0f0f;
+}
+.body
+{
+    padding: 50px 0px 0px 0px;
+    z-index:0px;
+}
+.navbar-dark
+{
+    background-color: #512DA8;
+}
+.carousel{
+    background: #512DAB;
+}
+.carousel-item
+{
+    height: 300px; 
+}
+.carousel-item img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.carousel-caption
+{
+    top:5px;
+    right:5px;
+}
+
+.non{
+    left:2%;
+}
+#carouselbutton
+{
+    right: 0;
+    position: absolute;
+    bottom:0;
+}
+#title
+{
+    background-color: #512DA8;
+    color: floralwhite;
+}
+#bodyform
+{
+    background:#9575CD;
+}
+#closes{
+    color: floralwhite;
+}
+</style>
